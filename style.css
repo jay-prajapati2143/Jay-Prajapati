@@ -1,91 +1,53 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    color: honeydew;
-    /* background-color: rgb(219, 239, 255); */
+html{
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-image: url('./Images/back2.jpg') !important;
+    background-size: 100% !important;
+    
+    background: fixed;
 }
 body{
-    /* background-color: rgb(163, 179, 196); */
+    background-image: url('./Images/back1.jpg') !important;
+    background-size: 100% !important;
+    
+    background: fixed;
 }
-.resume{
-    /* background-color: #a1d1ba; */
-    background-image: url("./assets/abstract-blue-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displace.jpg");
-    background-repeat: repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    margin:auto;
-    width: 75%;
-    border: 1px solid rgba(99, 99, 99, 0.637);
-    border-radius: 10px;
-    /* box-shadow: 5px 5px 5px  #e7e7e7; */
-    padding: 0 50px 0 50px;
+nav{
+    background-image: url('./Images/back3.jpg') !important;
+    background-size: 100% !important;
+    
+    background: fixed;
 }
-.resume h1{
-    text-align: center;
-    font-size: 60px;
-    padding-top: 15px;
-    padding-bottom: 0;
-    margin: 5px;
-    color: rgb(255, 255, 255);
+nav>a{
+    color: white !important;
 }
-.resume h1,h2{
-    text-transform: uppercase;
+li>a{
+    color: white !important;
 }
-#objective{
-    text-align: center;
-    margin-bottom: 50px;
-    color: green;
-}
-#objective h2{
-    font-weight: bold;
-    text-decoration: underline;
-}
-#myVideo{
-    border: 1px solid rgba(184, 184, 184, 0.582);
-    border-radius: 5px;
+section{
+    background-color: #343a40;
+    opacity: 0.9;
+    backface-visibility: visible;
     padding: 10px;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
-.block{
-    background-image: url("./assets/dark-blue-plain-wall-background_53876-92976.jpg");
-    background-attachment: fixed;
-    /* border: 1px solid rgba(63, 61, 61, 0.521); */
-    margin: 20px;
-    padding: 15px;
-    /* background-color: rgb(208, 220, 231); */
-    border-radius: 0px 10px 0px 10px;
-    box-shadow: 0px 5px 0px 5px rgba(181, 189, 189, 0.438);
-}
-.block:hover{
-    padding: 20px;
-    box-shadow: 0px 5px 0px 5px rgba(138, 141, 141, 0.438);
-}
-.block strong{
-    color: rgb(77, 204, 77);
-}
-.block h2{
-    color: rgb(115, 211, 115);
-}
-header address{
-    text-align: center;
-    color: rgb(226, 226, 226);
-}
-#Experience{
 
-
-}
-#Project{
-
-}
-#Education {
-
-}
-#skill ul li{
-    padding-bottom: 5px;
-    padding-left: 10px;
-    margin-left: 20px;
-}
-#skill table{
+.hex {
+    display: block;
+    margin: 0 auto;
+    position: relative;
     width: 100%;
-
+    max-height: 100%; /* width * 0.866 */
+    background: red;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 100% 0%, 100% 50%, 100% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 100% 0%, 100% 50%, 100% 100%, 25% 100%);
+  }
+#experience{
+    
+}
+#contact{
+    min-height: 400px;
 }

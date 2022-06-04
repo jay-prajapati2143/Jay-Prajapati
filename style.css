@@ -1,33 +1,43 @@
 html{
     scroll-behavior: smooth;
     
+    
 }
 header{
-    background-image: url('./Images/back2.jpg') !important;
+    /* background-image: url('./Images/back2.jpg') !important; */
+    background-color: rgb(70, 70, 70) !important;
     background-size: 100% !important;
     
     background: fixed;
 }
 body{
-    background-image: url('./Images/back1.jpg') !important;
+    /* background-image: url('./Images/back1.jpg') !important; */
+    background-color: rgb(70, 70, 70) !important;
     background-size: 100% !important;
     
     background: fixed;
 }
+
 nav{
-    background-image: url('./Images/back3.jpg') !important;
+    /* background-image: url('./Images/back3.jpg') !important; */
+    background: turquoise !important;
     background-size: 100% !important;
+
+   
     
     background: fixed;
 }
 nav>a{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent ;
 }
 li>a{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
+   
 }
 section{
-    background-color: #343a40;
+    /* background-color: lightsteelblue; */
+    top:500px;
     opacity: 0.9;
     backface-visibility: visible;
     padding: 10px;
@@ -49,5 +59,14 @@ section{
     
 }
 #contact{
-    min-height: 400px;
+    /* min-height: 400px; */
+}
+.nav-item:hover {
+    background-color : rgb(196, 196, 196);
+    
+}
+
+footer{
+    padding-top : 50px;
+    min-height: 300px;
 }

@@ -43,6 +43,13 @@ section{
     padding: 10px;
     margin-top: 5px;
 }
+.cardLink{
+    text-decoration: none !important;
+}
+.card-img-top{
+    max-height: 200px;
+    max-width: auto;
+}
 
 .hex {
     display: block;

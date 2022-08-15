@@ -1,0 +1,1 @@
+(function(){function u(){t&&(Lib.CssClass.add(sj_b,"b_sbText"),n.style.visibility="visible",_w.sj_evt&&sj_evt.fire("feedsSB",!0))}function r(){i&&Lib.CssClass.add(i,"b_focus");t.focus();_w.sj_evt&&sj_evt.fire("feedsSB",!1)}var i=_ge("b_header"),t=_ge("sb_form_q"),n=_ge("sw_clx");t&&n&&(sj_be(n,"mousedown",r,!0),"ontouchend"in _w&&sj_be(n,"touchend",r,!0),u())})()
